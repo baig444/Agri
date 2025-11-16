@@ -25,7 +25,7 @@ export default function CropPro() {
           </div>
         </div>
 
-        <p className="text-gray-300 leading-relaxed text-lg">
+        <p className="text-white leading-relaxed text-lg">
           Crop protection is essential for ensuring healthy plant growth,
           improving yields, and safeguarding the farmer’s hard work. By
           preventing damage from pests, diseases, weeds, and environmental

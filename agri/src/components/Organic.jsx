@@ -63,7 +63,7 @@ Organic farming is a sustainable approach to agriculture that focuses on nurturi
               <img
                 src="./15.jpeg"
                 alt="badge"
-                className="w-56 opacity-90"
+                className="w-56 opacity-90 rounded-xl"
               />
             </motion.div>
 
@@ -75,7 +75,7 @@ Organic farming is a sustainable approach to agriculture that focuses on nurturi
                 transition={{ duration: 0.7, ease: "easeOut" }}
                 viewport={{ once: true }}
                 src="./14.jpeg"
-                className="rounded-sm w-full h-[620px] object-cover"
+                className="w-full h-[620px] object-cover rounded-xl"
               />
             </Parallax>
 
@@ -95,7 +95,7 @@ Organic farming is a sustainable approach to agriculture that focuses on nurturi
 
                 <img
                   src="./16.jpeg"
-                  className="w-[350px] h-[240px] object-cover rounded-sm"
+                  className="w-[350px] h-[240px] object-cover rounded-xl"
                   alt="Chef"
                 />
               </motion.div>
