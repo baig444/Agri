@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family:'Link' ;
-    src: url('/LinkSans-Regular.woff2') format('woff2');
+    font-family:'Scram' ;
+    src: url('/Scram.woff2') format('woff2');
 }
 
 @font-face {
@@ -20,5 +20,5 @@
 }
 
 body{
-    font-family: 'Gilroy';
+    font-family: 'Scram';
 }
