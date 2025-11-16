@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family:'Matter' ;
+    src: url('/matter-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family:'Mazius' ;
+    src: url('/Mazius.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'Link' ;
+    src: url('/LinkSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family:'Gilroy' ;
+    src: url('/Gilroy-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Gilroy';
+}
