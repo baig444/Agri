@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Parallax } from "react-scroll-parallax";
 
 export default function CropPro() {
@@ -55,9 +56,9 @@ export default function CropPro() {
           </Parallax>
 
           <h3 className="text-2xl mt-6">Price Forecasting</h3>
-          <p className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
-            VIEW MENU
-          </p>
+          <Link className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
+            VIEW MORE
+          </Link>
         </motion.div>
 
         {/* CARD 2 */}
@@ -76,9 +77,9 @@ export default function CropPro() {
           </Parallax>
 
           <h3 className="text-2xl mt-6">Crop Recommendation</h3>
-          <p className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
-            VIEW MENU
-          </p>
+          <Link to={'https://dulcet-gelato-a44071.netlify.app/'} target="_blank" className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
+            VIEW MORE
+          </Link>
         </motion.div>
 
         {/* CARD 3 */}
@@ -97,9 +98,9 @@ export default function CropPro() {
           </Parallax>
 
           <h3 className="text-2xl mt-6">Crop Disease</h3>
-          <p className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
+          <Link to={'https://gentle-manatee-40ddc5.netlify.app/'} target="_blank" className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
             VIEW MORE
-          </p>
+          </Link>
         </motion.div>
 
       </div>

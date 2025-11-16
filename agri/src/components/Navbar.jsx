@@ -18,17 +18,22 @@ const Navbar = () => {
     <div>
               {/* Header/Navigation */}
       <header className="fixed top-0 left-0 right-0 z-50 px-8 py-6 flex justify-between items-center">
+        <h1 className='text-white text-2xl'>Smart Farming Advisory</h1>
         <a to="/" className={`text-2xl flex items-center font-light tracking-wider z-10 ${menuOpen ? 'text-black' : "text-white"}`}>
           <img src="./log.png" alt="" className='w-32' />
         </a>
 
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-6 text-white">
           {/* <button className="text-white">
             <Search className={`w-6 h-6 ${menuOpen ? 'text-black' : "text-white"}`} />
           </button> */}
-          <button className="text-white z-10 cursor-pointer" onClick={toggleMenu} aria-label="Toggle menu">
+          {/* <button className="text-white z-10 cursor-pointer" onClick={toggleMenu} aria-label="Toggle menu">
             {menuOpen ? <X className={`w-8 h-8 ${menuOpen ? 'text-black' : "text-white"}`} /> : <Menu className="w-8 h-8" />}
-          </button>
+          </button> */}
+          <h1>Home</h1>
+          <h1>Crop Protection</h1>
+          <h1>Crop Nutrition</h1>
+          <h1>Orgainc Farming</h1>
         </div>
       </header>
 
