@@ -26,7 +26,7 @@ const Navbar = () => {
     <div>
               {/* Header/Navigation */}
       <header className="fixed top-0 left-0 right-0 z-50 px-8 py-6 flex justify-between items-center">
-        <h1 className='text-white text-2xl'>Smart Farming Advisory Agricast AI</h1>
+        <h1 className='text-white text-2xl'>AgrocastAI: Smart Farming Advisory</h1>
         <a to="/" className={`text-2xl flex items-center font-light tracking-wider z-10 ${menuOpen ? 'text-black' : "text-white"}`}>
           <img src="./log.png" alt="" className='w-32' />
         </a>
