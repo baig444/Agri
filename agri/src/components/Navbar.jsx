@@ -14,6 +14,14 @@ const Navbar = () => {
     useEffect(() => {
         setMenuOpen(false)
       }, [pathname])
+
+      const scrollToSection = (id) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
   return (
     <div>
               {/* Header/Navigation */}
@@ -30,10 +38,10 @@ const Navbar = () => {
           {/* <button className="text-white z-10 cursor-pointer" onClick={toggleMenu} aria-label="Toggle menu">
             {menuOpen ? <X className={`w-8 h-8 ${menuOpen ? 'text-black' : "text-white"}`} /> : <Menu className="w-8 h-8" />}
           </button> */}
-          <h1>Home</h1>
-          <h1>Crop Protection</h1>
-          <h1>Crop Nutrition</h1>
-          <h1>Orgainc Farming</h1>
+  <h1 onClick={() => scrollToSection("home")} className="cursor-pointer">Home</h1>
+  <h1 onClick={() => scrollToSection("crop-protection")} className="cursor-pointer">Crop Protection</h1>
+  <h1 onClick={() => scrollToSection("crop-nutrition")} className="cursor-pointer">Crop Nutrition</h1>
+  <h1 onClick={() => scrollToSection("organic-farming")} className="cursor-pointer">Organic Farming</h1>
         </div>
       </header>
 

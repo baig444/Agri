@@ -189,7 +189,7 @@ const staggerParent = {
 
 const CropNut = () => {
   return (
-    <div className="bg-[#0c0c0c] text-[#E6AB66] overflow-hidden">
+    <div id="crop-nutrition" className="bg-[#0c0c0c] text-[#E6AB66] overflow-hidden">
       {/* SECTION TITLE */}
       <motion.div
         variants={staggerParent}

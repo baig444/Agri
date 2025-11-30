@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function CropPro() {
   return (
-    <section className="w-full bg-[#0c0c0c] text-white py-20 px-6 overflow-hidden">
+    <section id="crop-protection" className="w-full bg-[#0c0c0c] text-white py-20 px-6 overflow-hidden">
 
       {/* TOP TEXT */}
       <motion.div
@@ -55,7 +55,7 @@ export default function CropPro() {
             />
           </Parallax>
 
-          <h3 className="text-2xl mt-6">Price Forecasting</h3>
+          <h3 className="text-2xl mt-6">Weather App</h3>
           <Link to={'https://agrocast-weather-backend.onrender.com/'} target="_blank" className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
             VIEW MORE
           </Link>

@@ -203,7 +203,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="relative">
+    <div id="home" className="relative">
       {/* Add global styles for scrollbar hiding */}
       <style jsx global>{`
         html {
