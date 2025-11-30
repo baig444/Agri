@@ -56,7 +56,7 @@ export default function CropPro() {
           </Parallax>
 
           <h3 className="text-2xl mt-6">Price Forecasting</h3>
-          <Link className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
+          <Link to={'https://agrocast-weather-backend.onrender.com/'} target="_blank" className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
             VIEW MORE
           </Link>
         </motion.div>
@@ -98,7 +98,7 @@ export default function CropPro() {
           </Parallax>
 
           <h3 className="text-2xl mt-6">Crop Disease</h3>
-          <Link to={'https://gentle-manatee-40ddc5.netlify.app/'} target="_blank" className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
+          <Link to={'https://crop-disease-prediction-and-prevent.vercel.app/'} target="_blank" className="text-[#E6AB66] text-xs tracking-[3px] mt-3">
             VIEW MORE
           </Link>
         </motion.div>

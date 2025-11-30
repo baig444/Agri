@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState, useRef, forwardRef } from "react"
 import { Menu, Search, X, ArrowDown } from "lucide-react"
+import { Link } from "react-router-dom";
 
 // import { NewsPageComponent } from "@/components/news-page"
 
@@ -246,6 +247,12 @@ export default function Home() {
           sectionHeight={index === 0 ? "100vh" : "100vh"}
         />
       ))}
+
+              <div className="fixed right-3 bottom-5 z-40">
+          <Link to='https://agrocast-chatbot-backend.onrender.com/'>
+          <img src='/Chatbot.png' className='w-16 rounded-full'/>
+          </Link>
+        </div>
     </div>
   )
 }

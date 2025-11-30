@@ -1,6 +1,6 @@
 
 import { Menu, Search, X } from 'lucide-react'
-import {useLocation} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {

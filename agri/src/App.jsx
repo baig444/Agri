@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/Hero'
 import CropNut  from './components/CropNut'
 import Organic from './components/Organic'
+import Seeds from './components/Seeds'
 const App = () => {
   return (
     <div>
@@ -18,7 +19,10 @@ const App = () => {
       <CropPro/>
       <CropNut/>
       <Organic/>
+      <Seeds/>
+      
       </BrowserRouter>
+      
     </div>
   )
 }
