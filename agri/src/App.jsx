@@ -19,7 +19,7 @@ const App = () => {
       <CropPro/>
       <CropNut/>
       <Organic/>
-      <Seeds/>
+      {/* <Seeds/> */}
       
       </BrowserRouter>
       
